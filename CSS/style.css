@@ -1,3 +1,12 @@
-div .ytp-large-play-button .ytp-button {
-display: none; 
+body { 
+background: url(../Images/wedding-water.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav a {
+  color: rgba(254, 249, 244,1); 
+  text-decoration: none; 
 }
