@@ -21,6 +21,7 @@ body {
 #navbar {
     border: 1px solid #555;
     width: 50%; 
+    text-align: left; 
 }
 
 li {
@@ -37,7 +38,7 @@ nav a {
   color: rgba(254, 249, 244,1); 
   text-decoration: none;
   display: block; 
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid #555;
 }
 
