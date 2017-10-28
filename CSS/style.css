@@ -1,11 +1,4 @@
-/* MEDIA QUERIES */
 
-@media all and (max-width: 900px) {
-  body {
-  background-size: 80%;
-  font-size: ;
-}
-}
 /* BACKGROUND IMAGE */ 
 
 
@@ -46,3 +39,10 @@ nav a {
   border-bottom: 1px solid #555;
 }
 
+/* MEDIA QUERIES - PLACE THESE AFTER YOUR MAIN CSS */
+
+/* MEDIA QUERIES - PLACE THESE AFTER YOUR MAIN CSS */
+
+@media  and (max-width: 900px) {
+ 
+}
