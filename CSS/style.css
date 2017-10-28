@@ -1,6 +1,12 @@
 
 /* BACKGROUND IMAGE */ 
 
+body, html {
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+    width: 100%; 
+}
 
 body {
   background-image: url(../Images/wedding-water.jpg); 
@@ -40,7 +46,11 @@ nav a {
 }
 
 /* MEDIA QUERIES - PLACE THESE AFTER YOUR MAIN CSS */
-
+@media screen and (max-width: 1440px) {
+    body {
+        background-size: cover; 
+    }
+}
 @media screen and (max-width: 700px) {
  /* targeted towards screens with 700px or less */ 
     body {
