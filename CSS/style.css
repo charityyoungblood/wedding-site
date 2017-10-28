@@ -4,8 +4,8 @@
 
 body {
   background-image: url(../Images/wedding-water.jpg); 
-  background-size: 1440px 826px;
-   
+  /*background-size: 1440px 826px;*/
+  background-size: 100%; 
   background-repeat: no-repeat;
   max-width: 100%; 
   margin-left: 60px; 
@@ -41,8 +41,48 @@ nav a {
 
 /* MEDIA QUERIES - PLACE THESE AFTER YOUR MAIN CSS */
 
-/* MEDIA QUERIES - PLACE THESE AFTER YOUR MAIN CSS */
-
-@media  and (max-width: 900px) {
- 
+@media screen and (max-width: 700px) {
+ /* targeted towards screens with 700px or less */ 
+    body {
+        background-size: 100%; 
+    }
 }
+
+@media screen and (max-width: 400px) {
+    body {
+        background-size: 100%; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
