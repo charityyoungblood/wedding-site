@@ -16,6 +16,10 @@ body {
   max-width: 100%; 
   margin-left: 60px; 
 }
+
+.wrapper {
+  width: 100%; 
+}
 /* html {
   margin: 40px; 
 } */
@@ -47,8 +51,8 @@ nav a {
 
 /* MEDIA QUERIES - PLACE THESE AFTER YOUR MAIN CSS */
 @media screen and (max-width: 1440px) {
-    body {
-        background-size: cover; 
+    .wrapper {
+        width: 90%; 
     }
 }
 @media screen and (max-width: 700px) {
